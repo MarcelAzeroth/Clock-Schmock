@@ -6,9 +6,11 @@ body{
     background-image: var(--background-image);
     background-size: cover;
     color: #fff;
-    height: 100vh;
+}
+
+body, html {
     width: 100vw;
-   
+    height: 100%,
 }
 
 .bg-shadow{
