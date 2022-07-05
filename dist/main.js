@@ -94,12 +94,12 @@ const footer = document.querySelector("footer")
 
     const slide = () => {
         footer.classList.toggle("hide");
-        if(moreButtonArrow.getAttribute("src") === "/dist/assets/desktop/icon-arrow-down.svg"){
-            moreButtonArrow.setAttribute("src", "/dist/assets/desktop/icon-arrow-up.svg");
+        if(moreButtonArrow.getAttribute("src") === "./assets/desktop/icon-arrow-down.svg"){
+            moreButtonArrow.setAttribute("src", "./assets/desktop/icon-arrow-up.svg");
             moreButtonText.textContent = "less";
             return;
         }
-            moreButtonArrow.setAttribute("src", "/dist/assets/desktop/icon-arrow-down.svg");
+            moreButtonArrow.setAttribute("src", "./assets/desktop/icon-arrow-down.svg");
             moreButtonText.textContent = "more";
     }
 
