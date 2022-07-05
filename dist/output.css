@@ -1,32 +1,32 @@
 body {
-  --background-image: url("/dist/assets/mobile/bg-image-nighttime.jpg");
+  --background-image: url("./assets/mobile/bg-image-nighttime.jpg");
   --footer-bg-color: rgba(0, 0, 0, 0.4);
   --footer-font-color: #FFFFFF;
 }
 @media (min-width: 768px) {
   body {
-    --background-image: url("/dist/assets/tablet/bg-image-nighttime.jpg");
+    --background-image: url("./assets/tablet/bg-image-nighttime.jpg");
   }
 }
 @media (min-width: 1440px) {
   body {
-    --background-image: url("/dist/assets/desktop/bg-image-nighttime.jpg");
+    --background-image: url("./assets/desktop/bg-image-nighttime.jpg");
   }
 }
 
 body[theme=day] {
-  --background-image: url("/dist/assets/mobile/bg-image-daytime.jpg");
+  --background-image: url("./assets/mobile/bg-image-daytime.jpg");
   --footer-bg-color: rgba(255, 255, 255, 0.4);
   --footer-font-color: #303030;
 }
 @media (min-width: 768px) {
   body[theme=day] {
-    --background-image: url("/dist/assets/tablet/bg-image-daytime.jpg");
+    --background-image: url("./assets/tablet/bg-image-daytime.jpg");
   }
 }
 @media (min-width: 1440px) {
   body[theme=day] {
-    --background-image: url("/dist/assets/desktop/bg-image-daytime.jpg");
+    --background-image: url("./assets/desktop/bg-image-daytime.jpg");
   }
 }
 

@@ -69,18 +69,18 @@ const calenderWeekData = document.querySelector(".calendar-week__data")
     const updateGreeting = hours => {
         if(hours >= 5 && hours <= 12){
             greetingText.textContent = "Good morning";
-            greetingSymbol.setAttribute("src", "/dist/assets/desktop/icon-sun.svg")
+            greetingSymbol.setAttribute("src", "./assets/desktop/icon-sun.svg")
             document.querySelector("body").setAttribute("theme", "day")
             return
         }
         if(hours > 12 && hours <= 18){
             greetingText.textContent = "Good afternoon";
-            greetingSymbol.setAttribute("src", "/dist/assets/desktop/icon-sun.svg")
+            greetingSymbol.setAttribute("src", "./assets/desktop/icon-sun.svg")
             document.querySelector("body").setAttribute("theme", "day")
             return
         }
         greetingText.textContent = "Good evening";
-        greetingSymbol.setAttribute("src", "/dist/assets/desktop/icon-moon.svg")
+        greetingSymbol.setAttribute("src", "./assets/desktop/icon-moon.svg")
         document.querySelector("body").setAttribute("theme", "night")
     }
 
