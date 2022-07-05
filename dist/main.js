@@ -46,7 +46,7 @@ const calenderWeekData = document.querySelector(".calendar-week__data")
         const timeCountry = dataLocation.data.location.country.alpha2
         
         // Get correct time to display.
-        const responseTime = await fetch(`http://worldtimeapi.org/api/timezone/${timezone}`);
+        const responseTime = await fetch(`https://worldtimeapi.org/api/timezone/${timezone}`);
         const dataTime = await responseTime.json();
 
         // Display time.
